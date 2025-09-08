@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    text-align: center;
+}
+
+#header {
+    background-color: rgb(170, 59, 218);
+    color: white;
+    border: solid 2px black;
+    width: 1310px;
+    margin: auto;
+}
+
+#logoImg img {
+    height: 100px;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+}
+
+#menu li {
+    margin: 0px 20px 0px 20px;
+    border: solid 2px black;
+    width: 100px;
+    height: 30px;
+
+}
+
+#sidebarLeft {
+    background-color: lightcyan;
+    border: solid 2px black;
+    width: 350px;
+}
+
+#sidebarRight {
+    background-color: lightgreen;
+    border: solid 2px black;
+    width: 350px;
+}
+
+.mainContent {
+    background-color: lightblue;
+    border: solid 2px black;
+    width: 600px;
+}
+
+#footer {
+    background-color: lightcoral;
+    border: solid 2px black;
+    justify-content: center;
+    width: 1310px;
+    margin: auto;
+    text-align: center;
+}
