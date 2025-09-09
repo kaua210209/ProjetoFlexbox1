@@ -2,6 +2,8 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .container2 {
@@ -20,7 +22,12 @@
 }
 
 #logoImg img {
-    height: 100px;
+    width: 100px;
+}
+
+#logoImg {
+    display: flex;
+    align-items: center;
 }
 
 #menu {
@@ -33,25 +40,40 @@
     border: solid 2px black;
     width: 100px;
     height: 30px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(112, 134, 155);  
+}
 
+#menu li:hover {
+    background-color: rgb(149, 153, 158);    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 #sidebarLeft {
     background-color: lightcyan;
     border: solid 2px black;
     width: 350px;
+    align-content: center;
 }
 
 #sidebarRight {
     background-color: lightgreen;
     border: solid 2px black;
     width: 350px;
+    align-content: center;
 }
 
 .mainContent {
     background-color: lightblue;
     border: solid 2px black;
     width: 600px;
+    align-content: center;
 }
 
 #footer {
@@ -61,4 +83,21 @@
     width: 1310px;
     margin: auto;
     text-align: center;
+}
+
+#imgProdutos {
+    display: flex;
+    width: 350px;
+}
+
+#imgProdutos img {
+    /* margin-left: 350px; */
+    width: 350px;
+}
+
+#botao {
+    display: flex;
+    width: 120px;
+    margin-left: 450px;
+    margin-bottom: 15px;
 }
