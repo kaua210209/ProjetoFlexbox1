@@ -85,19 +85,106 @@
     text-align: center;
 }
 
-#imgProdutos {
-    display: flex;
-    width: 350px;
+.container3 img{
+    width: 300px;
 }
 
-#imgProdutos img {
-    /* margin-left: 350px; */
-    width: 350px;
+.container3 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: center;
 }
 
-#botao {
-    display: flex;
-    width: 120px;
-    margin-left: 450px;
-    margin-bottom: 15px;
+#coracao {
+    background-color: rgb(153, 121, 116);
+    border: solid 2px black;
+}
+
+#pilao {
+    background-color: rgb(153, 121, 116);
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 2px black;
+}
+
+#melita {
+    background-color: rgb(153, 121, 116);
+    border: solid 2px black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container4 {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container4 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 6px rgba(0,123,255,0.3);
+}
+
+textarea {
+  resize: none;
+  min-height: 100px;
+}
+
+.btn {
+  width: 102%;
+  padding: 12px;
+  background: #007BFF;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
 }
